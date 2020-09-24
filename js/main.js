@@ -142,7 +142,7 @@ function showEducation(){
 
 function showSkills(){
     
-    let skills = '<h2>Education</h2>'; 
+    let skills = '<h2>Skills</h2>'; 
     skills += ` 
         <div id="skills">
         <br>
