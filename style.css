@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding:0px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-image: url('/bilder/glowing-background.jpg');
+    background-repeat: repeat;
+    color:blanchedalmond !important;
+}
+header div #navbarCollapse ul li{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.jumbotron-detail-wallpaper-top{
+    background: url('/bilder/background-wallpaper-top.jpg') no-repeat fixed;
+}
+.jumbotron{
+    height: 40vh;
+    background-size: cover;
+}
+
+
+div #shortInfo ul li{
+    list-style: none;
+}
+div #gitHubRepos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+div #gitHubRepos a {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    width:200px;
+    padding: 20px 10px 20px 10px;
+}
+div #myContent{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+div #myContent ul{
+    list-style: none;
+}
