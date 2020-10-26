@@ -8,7 +8,8 @@ fetch('https://api.github.com/users/jonasromin/repos')
     let gitHubRepos = document.getElementById('gitHubRepos');
 
     for(i = 0; i < myRepos.length; i++){
-        gitHubRepos.insertAdjacentHTML("beforeend", "<a href='" + myRepos[i].html_url + "' target='_blank'><div class='gitHubRepo'>" + myRepos[i].name + "</div></a>")
+        gitHubRepos.insertAdjacentHTML("beforeend", "<a href='" + myRepos[i].html_url 
+        + "' target='_blank'><div class='gitHubRepo'>" + myRepos[i].name + "</div></a>")
     }
 })
 document.getElementById('myContent').innerHTML = "";
